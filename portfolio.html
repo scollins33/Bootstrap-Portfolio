@@ -1,15 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Bootstrap Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
 
+<body>
+<!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <!-- Navbar name -->
+            <div class="col-xs-12 col-sm-6 text-center">
+                <div class="navbar-text navbar-left" id="header-name">Sean Collins</div>
+            </div>
+            <!-- Navbar page links -->
+            <div class="col-xs-12 col-sm-6 text-center">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a href="index.html">About</a></li>
+                    <li class="nav-item active">
+                        <a href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Area -->
+    <div class="container">
+
+        <!-- Main Content -->
+        <div class="col-sm-12 col-md-8">
+            <div class="row">
+                <div class="jumbotron">
+                    <!-- Content Header -->
+                    <div>
+                        <h2>Portfolio</h2>
+                        <hr>
+                    </div>
+                    <!-- Content Body -->
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 pull-left">
+                            <img class="img-thumbnail" src="assets/images/abstract-q-c-640-480-5.jpg">
+                            <div class="project-banner">Project 1</div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 pull-left">
+                            <img class="img-thumbnail" src="assets/images/food-q-c-640-480-8.jpg">
+                            <div class="project-banner">Project 2</div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 pull-left">
+                            <img class="img-thumbnail" src="assets/images/nature-q-c-640-480-7.jpg">
+                            <div class="project-banner">Project 3</div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 pull-left">
+                            <img class="img-thumbnail" src="assets/images/technics-q-c-640-480-3.jpg">
+                            <div class="project-banner">Project 4</div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 pull-left">
+                            <img class="img-thumbnail" src="assets/images/technics-q-c-640-480-4.jpg">
+                            <div class="project-banner">Project 5</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Spacer column -->
+        <div class="col-sm-12 col-md-1"></div>
+
+        <!-- Sidebar Content -->
+        <div class="col-sm-12 col-md-3">
+            <div class="row">
+                <div class="panel panel-default">
+                    <!-- Sidebar Header -->
+                    <div class="panel-heading">
+                        <h4>Connect with Me</h4>
+                    </div>
+
+                    <!-- Contact Links -->
+                    <div class="panel-body">
+                        <!-- GitHub Link -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <a href="https://github.com/scollins33" target="_blank">
+                                    <img alt="" src="assets/images/github_icon.png" class="img-responsive"></a>
+                            </div>
+                            <!-- LinkedIn Link -->
+                            <div class="col-xs-4">
+                                <a href="https://www.linkedin.com/in/seancollinsatl/" target="_blank">
+                                    <img alt="" src="assets/images/linkedin_icon.png" class="img-responsive"></a>
+                            </div>
+                            <!-- Stack Overflow Link -->
+                            <div class="col-xs-4">
+                                <a href="https://stackoverflow.com/users/2673492/scollins33" target="_blank">
+                                    <img alt="" src="assets/images/stackoverflow_icon.png" class="img-responsive"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container footer">
+            <div class="text-center vertical-center">Copyright 2017 Sean Collins</div>
+        </div>
+    </nav>
 </body>
 </html>

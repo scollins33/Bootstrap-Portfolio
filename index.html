@@ -10,46 +10,98 @@
 </head>
 
 <body>
-    <!-- Fixed Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+<!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <!-- Navbar name -->
-            <div class="navbar-brand" id="header-name">Sean Collins</div>
+            <div class="col-xs-12 col-sm-6 text-center">
+                <div class="navbar-text navbar-left" id="header-name">Sean Collins</div>
+            </div>
             <!-- Navbar page links -->
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item active">
-                    <a href="index.html" class="nav-link">About</a></li>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
+            <div class="col-xs-12 col-sm-6 text-center">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a href="index.html">About</a></li>
+                    <li class="nav-item">
+                        <a href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Content Area -->
     <div class="container">
+
         <!-- Main Content -->
-        <div class="container col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="col-sm-12 col-md-8">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img src="assets/images/Sean_Face.jpg" alt="" class="img-thumbnail rounded float-left img-fluid" id="headshot">
-                    <p>Ut et dictum tortor, nec finibus lacus. Nullam vulputate est nisl, a vestibulum dolor malesuada sed. Sed eu metus ac lacus tincidunt malesuada vitae nec augue. Vivamus in dui nisi. Pellentesque mattis sapien ut magna pulvinar, faucibus consequat neque feugiat. Morbi hendrerit iaculis nibh sed varius. Nulla volutpat pharetra tincidunt. Curabitur eu urna sit amet dolor maximus dapibus. Praesent imperdiet pellentesque faucibus. Sed vel purus sed erat lobortis aliquet. Quisque vulputate eu urna at gravida. Ut a egestas ligula. Nam quis mauris bibendum nulla faucibus pretium. Duis magna nisl, tempor eu maximus at, interdum ut dolor. Nunc quis auctor diam. Duis nec tempor massa.</p>
-                    <br>
-                    <p>Praesent dapibus laoreet urna, id scelerisque enim. Nulla tempus, augue suscipit viverra consectetur, ligula justo maximus lorem, ac dignissim ipsum elit rutrum turpis. Vestibulum sit amet neque ultricies, suscipit ante sit amet, condimentum lacus. Donec ornare eros a odio lacinia ultricies. Nam quis mauris bibendum nulla faucibus pretium. Duis magna nisl, tempor eu maximus at, interdum ut dolor. Nunc quis auctor diam. Duis nec tempor massa. Nullam quis lorem nisi. Sed at vulputate quam. Nunc feugiat in elit in aliquet. Maecenas quis rutrum augue.</p>
+                <div class="jumbotron">
+                    <!-- Content Header -->
+                    <div>
+                        <h2>About Me</h2>
+                        <hr>
+                    </div>
+                    <!-- Content Body -->
+                    <div class="row">
+                        <!-- acts as a wrapper to keep text contained when wrapping -->
+                        <div class="col-xs-12">
+                            <div class="pull-left col-sm-12 col-md-6">
+                                <img src="assets/images/Sean_Face.jpg" alt="" class="img-thumbnail pull-left">
+                            </div>
+                            <h4>Ut et dictum tortor, nec finibus lacus. Nullam vulputate est nisl, a vestibulum dolor malesuada sed. Sed eu metus ac lacus tincidunt malesuada vitae nec augue. Vivamus in dui nisi. Pellentesque mattis sapien ut magna pulvinar, faucibus consequat neque feugiat. Morbi hendrerit iaculis nibh sed varius. Nulla volutpat pharetra tincidunt. Curabitur eu urna sit amet dolor maximus dapibus. Praesent imperdiet pellentesque faucibus. Sed vel purus sed erat lobortis aliquet. Quisque vulputate eu urna at gravida. Ut a egestas ligula. Nam quis mauris bibendum nulla faucibus pretium. Duis magna nisl, tempor eu maximus at, interdum ut dolor. Nunc quis auctor diam. Duis nec tempor massa.</h4>
+                            <h4>Praesent dapibus laoreet urna, id scelerisque enim. Nulla tempus, augue suscipit viverra consectetur, ligula justo maximus lorem, ac dignissim ipsum elit rutrum turpis. Vestibulum sit amet neque ultricies, suscipit ante sit amet, condimentum lacus. Donec ornare eros a odio lacinia ultricies. Nam quis mauris bibendum nulla faucibus pretium. Duis magna nisl, tempor eu maximus at, interdum ut dolor. Nunc quis auctor diam. Duis nec tempor massa. Nullam quis lorem nisi. Sed at vulputate quam. Nunc feugiat in elit in aliquet. Maecenas quis rutrum augue.</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+
+        <!-- Spacer column -->
+        <div class="col-sm-12 col-md-1"></div>
 
         <!-- Sidebar Content -->
-        <div class="container col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-3">
+            <div class="row">
+                <div class="panel panel-default">
+                    <!-- Sidebar Header -->
+                    <div class="panel-heading">
+                        <h4>Connect with Me</h4>
+                    </div>
 
+                    <!-- Contact Links -->
+                    <div class="panel-body">
+                        <!-- GitHub Link -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <a href="https://github.com/scollins33" target="_blank">
+                                    <img alt="" src="assets/images/github_icon.png" class="img-responsive"></a>
+                            </div>
+                            <!-- LinkedIn Link -->
+                            <div class="col-xs-4">
+                                <a href="https://www.linkedin.com/in/seancollinsatl/" target="_blank">
+                                    <img alt="" src="assets/images/linkedin_icon.png" class="img-responsive"></a>
+                            </div>
+                            <!-- Stack Overflow Link -->
+                            <div class="col-xs-4">
+                                <a href="https://stackoverflow.com/users/2673492/scollins33" target="_blank">
+                                    <img alt="" src="assets/images/stackoverflow_icon.png" class="img-responsive"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
+
+    <!-- Footer -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container footer">
+            <div class="text-center vertical-center">Copyright 2017 Sean Collins</div>
+        </div>
+    </nav>
 </body>
 </html>
